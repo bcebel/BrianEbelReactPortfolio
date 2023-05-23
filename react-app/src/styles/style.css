@@ -10,28 +10,38 @@
 }
 
 .brianintro {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   font-size: 2em;
-  width: 13em;
-  margin-left: 2em;
+  width: 10em;
+  margin-left: 1em;
+  display: inline-block;
 }
 
 .nav-link,
 .navred {
+
   color: #7079d3 !important;
   background-image: url("../components/pages/sketch5.png");
+  display: inline-block;
 }
 
 body {
   color: rgb(220, 290, 227) !important;
-
 }
 p {
-    margin-left: 2em;
-    margin-right: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 h1 {
-    margin-left: 1em;
-    margin-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.headshot {
+  background-image: url("../components/pages/brian.jpg");
 }

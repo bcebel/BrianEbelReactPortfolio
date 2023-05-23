@@ -1,8 +1,10 @@
 import React from "react";
+import "../../styles/style.css";
+import headshot from "./brian.jpg";
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <img src={headshot} alt="Brian Ebel" />
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
