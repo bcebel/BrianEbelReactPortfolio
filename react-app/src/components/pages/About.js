@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div>
       <img src={headshot} alt="Brian Ebel" />
-      <p>
+      <p className="aboutText">
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

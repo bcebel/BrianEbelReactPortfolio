@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../../styles/style.css";
 
 export default function Blog() {
@@ -40,6 +41,24 @@ export default function Blog() {
             target="_blank"
           >
             Music Top 10
+          </a>
+        </div>
+        <div className="projectbg">
+          <a
+            href="https://sleepy-caverns-33323.herokuapp.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Tech Blog
+          </a>
+        </div>
+        <div className="projectbg">
+          <a
+            href="https://stormy-springs-91791.herokuapp.com"
+            rel="noopener"
+            target="_blank"
+          >
+            Progressive Web App
           </a>
         </div>
       </p>

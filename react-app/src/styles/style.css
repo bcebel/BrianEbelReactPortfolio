@@ -45,3 +45,9 @@ h1 {
 .headshot {
   background-image: url("../components/pages/brian.jpg");
 }
+
+.aboutText {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: inline-block;
+}
