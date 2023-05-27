@@ -4,17 +4,25 @@
   justify-content: center;
   align-items: center;
   width: 20em;
-  height: 5em;
   border-radius: 100%;
+  color: #43b0f1 !important;
   background-image: url("../components/pages/sketch5.png");
 }
 
-.brianintro {
+.projectbg img {
+  width: 20em;
+  border-radius: 100%;
 
+}
+.foto {
+  opacity: .5;
+  width: 20em;
+}
+.brianintro {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #e8eef1;
   font-size: 2em;
   width: 10em;
   margin-left: 1em;
@@ -23,14 +31,16 @@
 
 .nav-link,
 .navred {
-
-  color: #7079d3 !important;
-  background-image: url("../components/pages/sketch5.png");
+  color: #43b0f1 !important;
+  background-color: #1e3d58;
   display: inline-block;
 }
 
+
 body {
-  color: rgb(220, 290, 227) !important;
+  color: #e8eef1 !important;
+  background-color: #057dcd !important;
+  background-image: url("../components/pages/spiral.png");
 }
 p {
   margin-left: 2em;
@@ -40,6 +50,7 @@ p {
 h1 {
   margin-left: 1em;
   margin-right: 1em;
+  color: #057dcd;
 }
 
 .headshot {

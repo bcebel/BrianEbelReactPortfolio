@@ -1,5 +1,11 @@
 import React from "react";
-
+import quizwars from "./quizwars.png";
+import phudi from "./phudi.png";
+import pwg from "./pwg.png";
+import hot10 from "./hot10.png";
+import techblog from "./techblog.png";
+import pwa from "./pwa.png";
+import weather from "./weather.png";
 import "../../styles/style.css";
 
 export default function Blog() {
@@ -9,11 +15,21 @@ export default function Blog() {
       <p>
         <div className="projectbg">
           <a
+            href="https://bcebel.github.io/met/"
+            rel="noopener"
+            target="_blank"
+          >
+            <img src={weather} alt="weather" />
+          </a>
+        </div>
+
+        <div className="projectbg">
+          <a
             href="https://bcebel.github.io/WebAPICodeQuiz/"
             rel="noopener"
             target="_blank"
           >
-            Web API Code Quiz
+            <img src={quizwars} alt="quizwars" />
           </a>
         </div>
         <div className="projectbg">
@@ -22,7 +38,7 @@ export default function Blog() {
             rel="noopener"
             target="_blank"
           >
-            Reservation System
+            <img src={phudi} alt="phudi" />
           </a>
         </div>
         <div className="projectbg">
@@ -31,7 +47,7 @@ export default function Blog() {
             rel="noopener"
             target="_blank"
           >
-            Password Generator
+            <img src={pwg} alt="password generator" />
           </a>
         </div>
         <div className="projectbg">
@@ -40,7 +56,7 @@ export default function Blog() {
             rel="noopener"
             target="_blank"
           >
-            Music Top 10
+            <img src={hot10} alt="hot10" />
           </a>
         </div>
         <div className="projectbg">
@@ -49,7 +65,7 @@ export default function Blog() {
             rel="noopener"
             target="_blank"
           >
-            Tech Blog
+            <img src={techblog} alt="techblog" />
           </a>
         </div>
         <div className="projectbg">
@@ -58,7 +74,7 @@ export default function Blog() {
             rel="noopener"
             target="_blank"
           >
-            Progressive Web App
+            <img src={pwa} alt="pwa" />
           </a>
         </div>
       </p>
