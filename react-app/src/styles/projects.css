@@ -1,0 +1,126 @@
+a:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: deepskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+}
+
+.work {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.work > a {
+  display: flex;
+  height: 10em;
+  width: 10em;
+
+  font-size: 1.5rem;
+  color: orangered;
+  border-radius: 10%;
+  align-items: center;
+}
+.work > a:nth-of-type(1) {
+  background-image: url("../components/pages/phudi.png");
+  background-size: 100% 100%;
+}
+
+.work > a:nth-of-type(1):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(2) {
+  background-image: url("../components/pages/quizwars.png");
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(2):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(3) {
+  background-image: url("../components/pages/pwa.png");
+  background-size: 100% 100%;
+}
+
+.work > a:nth-of-type(3):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(4) {
+  background-image: url("../components/pages/techblog.png");
+  background-size: 100% 100%;
+}
+
+.work > a:nth-of-type(4):hover {
+  transform: scale(1.25);
+}
+.work > a:nth-of-type(5) {
+  background-image: url("../components/pages/pwg.png");
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(5):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(6) {
+  background-image: url("../components/pages/hot10.png");
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(6):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(7) {
+  background-image: url("../components/pages/weather.png");
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(7):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(8) {
+  background-image: url("../components/pages/portfolio1.png");
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(8):hover {
+  transform: scale(1.25);
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gridsection {
+  display: flex;
+}

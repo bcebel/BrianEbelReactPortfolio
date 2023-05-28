@@ -5,7 +5,9 @@ import React from "react";
 function footer() {
   return (
     <footer>
-      <a href="https://github.com/bcebel">Github</a>
+      <a href="https://github.com/bcebel">Github &#160;</a>
+      <a href="https://www.linkedin.com/in/brian-ebel/"> LinkedIn &#160;</a>
+      <a href="https://www.twitter.com/bc3mc2"> Twitter</a>
     </footer>
   );
 }
