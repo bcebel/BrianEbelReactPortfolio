@@ -26,6 +26,15 @@ body {
   color: #e8eef1 !important;
   background-color: #057dcd !important;
   background-image: url("../components/pages/spiral.png");
+
+  text-align: center;
+
+  width: 95%;
+
+  place-items: center;
+
+
+
 }
 p {
   margin-left: 2em;
@@ -48,4 +57,8 @@ h1 {
   display: inline-block;
 }
 
-
+footer a{
+  display: flex;
+margin: auto;
+  color:aquamarine
+}

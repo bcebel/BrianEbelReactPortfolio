@@ -1,5 +1,6 @@
 {
   "name": "00-practice-app",
+  "homepage": "https://bcebel.github.io/BrianEbelReact/",
   "version": "0.1.0",
   "engines": {
     "node": "19.6.0"

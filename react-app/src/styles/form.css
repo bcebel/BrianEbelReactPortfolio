@@ -1,0 +1,53 @@
+:root {
+  --color-default: grey;
+  --color-invalid: red;
+  --color-valid: green;
+}
+
+input {
+  border: 2px solid var(--color-default);
+  text-align: center;
+}
+
+.error-message {
+  display: none;
+  font-weight: bold;
+  color: var(--color-invalid);
+}
+
+/* To demonstrate that the validations only happen on blur, we apply this malpractice */
+input:focus {
+  outline: none;
+}
+
+/* Only show invalid ring while not focused */
+input:not(:focus):not(:placeholder-shown):invalid {
+  border-color: var(--color-invalid);
+}
+input:not(:focus):not(:placeholder-shown):invalid ~ .error-message {
+  display: block; 
+}
+
+/* Only show valid ring while not focused and if a value is entered */
+/* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
+input:not(:focus):not(:placeholder-shown):valid {
+  border-color: var(--color-valid);
+}
+
+
+
+
+
+
+/* Non demo-related styles */
+* {
+  box-sizing: border-box;
+}
+
+
+input {
+  font-size: 2em;
+  display: block;
+  width: 100%;
+  margin: 2rem auto 3rem;
+}

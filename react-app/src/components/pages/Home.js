@@ -3,7 +3,11 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-      <h1>Resume</h1>
+      <h1>
+        <a href="https://docs.google.com/document/d/e/2PACX-1vS2vliWJCmeDAt5NZVr-E-0ktjLtDupJfRMXqf_y8E_6WSpyv7hr2oQolnRn3pFSQ/pub">
+          Click Here for Resume
+        </a>
+      </h1>
       <p>
         <p>
           Brian Charles Ebel Full Stack Web Developer 30 Cherry St. #207
